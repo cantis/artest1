@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "artest"
+version = "0.1.0"
+description = "Test my pypi library demo"
+authors = ["Evan Young <cantis@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+arconverter = {version = "0.1.2", source = "test"}
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.0.282"
+black = "^23.7.0"
+pytest = "^7.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "test"
+url = "https://test.pypi.org/simple"
+priority = "supplemental"
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
+
