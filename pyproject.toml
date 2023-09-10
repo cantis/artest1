@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "artest"
-version = "0.1.0"
+version = "1.0.0"
 description = "Test my pypi library demo"
 authors = ["Evan Young <cantis@gmail.com>"]
 license = "MIT"
