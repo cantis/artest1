@@ -10,6 +10,7 @@ readme = "README.md"
 python = "^3.11"
 arconverter = {version = "0.1.2", source = "test"}
 pre-commit = "^3.7.0"
+flask = "^3.0.2"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.0.282"
